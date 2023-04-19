@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="estiloresponsivo.css">
+</head>
+<body>
+<div class="container">
+	<header>
+		<h1>Patron de diseño adapter</h1>
+	</header>
+
+
+<nav>
+	<ul>
+		<a href="index.html"><li>Patron de diseño adapter</li></a>
+		<a href="UDDI.html"><li>UDDI</li></a>
+		<a href="SOAP.html"><li>SOAP</li></a>
+		<a href="SOA.html"><li>SOA</li></a>
+	</ul>
+	<ul>
+		<a href="SMTP.html"><li>SMTP</li></a>
+		<a href="WSDL.html"><li>WSDL</li></a>
+		<a href="Seccion blanca.html"><li>XML</li></a>
+		<a href="Seccion amarilla.html"><li>HTML</li></a>
+	</ul>
+</nav>
+<section>
+	
+	
+		<br> Es un patron de diseño estrucctural que permite la colaboracion entre objetos con interfaces incompatibles
+			<p>
+		<center><img src="img/coche_via.png"></center>
+
+	</p>
+<p>
+		un adaptador envuelve uno de los objetos para esconder la complejidad de la conversion que tiene lugar tras bambalinas
+
+		Los adaptadores no solo convierten datos a varios formatos, si no que tambien ayudan a objetos con distinas interfaces a colaborar.
+	</p>
+<p>
+	Funciona de la siguiente manera
+<ul>
+	<li>
+	El adaptador obtiene una interfaz compatible con uno de los objetos existentes.
+	</li>
+	<li>
+	Utilizando esta interfaz, el objeto existente puede invocar con seguridad los métodos del adaptador.
+	</li>
+	<li>
+	Al recibir una llamada, el adaptador pasa la solicitud al segundo objeto, pero en un formato y orden que ese segundo objeto espera
+
+	</li>
+</ul>
+</p>
+</section>
+<footer>
+<a href="first_page.php">ITS ALAMO TEMAPACHE</a>	
+</footer>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
